@@ -54,6 +54,14 @@ sudo apt-get install `cat packages-deps | tr '\n' ' '`
 Installation
 --------------------
 
+Note: do all installations in a virtual env and you will have to use python2. 
+
+```
+pip install virtualenv
+python -m virtualenv bintuner_venv
+source bintuner_venv/bin/activate
+```
+
 Running it out of a git checkout, a list of python dependencies can be found in requirements.txt these can be installed system-wide with pip.
 ```
 sudo apt-get install python-pip
