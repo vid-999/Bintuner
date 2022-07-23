@@ -158,7 +158,7 @@ class GccFlagsTuner(MeasurementInterface):
     
     gcc_cmd += ' -O{0}'.format(cfg['opt_level'])
     OptLevel = ' -O{0}'.format(cfg['opt_level'])
-    print "--- BinTuner ---"
+    print ("--- BinTuner ---")
     #print cfg['opt_level']
     global GlobalOptLevel 
     GlobalOptLevel = OptLevel
